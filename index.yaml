@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   app:
   - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2023-07-19T11:33:44.923673222+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 35751bd42a22cc357d672aed550c216f7a3a618d91e6147647244f1946c8da40
+    name: app
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/knowdee/charts/gh-pages/app-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
     appVersion: 1.1.0
     created: "2023-07-18T19:46:30.725836157+08:00"
     description: A Helm chart for Kubernetes
@@ -32,6 +42,16 @@ entries:
     - https://raw.githubusercontent.com/knowdee/charts/gh-pages/app-0.1.0.tgz
     version: 0.1.0
   mysql:
+  - apiVersion: v2
+    appVersion: 8.0.33
+    created: "2023-07-19T11:33:44.92425081+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 54f03f6a78965924831d9f2c938f22bf48c82da1ed9d9b84101271c8c1ad1b6f
+    name: mysql
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/knowdee/charts/gh-pages/mysql-0.5.0.tgz
+    version: 0.5.0
   - apiVersion: v2
     appVersion: 8.0.33
     created: "2023-07-18T19:46:30.726802505+08:00"
@@ -72,4 +92,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/knowdee/charts/gh-pages/mysql-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-18T19:46:30.723667239+08:00"
+generated: "2023-07-19T11:33:44.922460985+08:00"
